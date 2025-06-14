@@ -122,6 +122,7 @@ STATICFILES_DIRS = [
     BASE_DIR / "static",
 ]
 
+STATICFILES_STORAGE = 'Portfolio.storage.S3Storage'
 
 # Media files (User-uploaded content)
 MEDIA_URL = '/media/'
