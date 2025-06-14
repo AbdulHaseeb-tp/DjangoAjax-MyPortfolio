@@ -126,7 +126,7 @@ STATICFILES_DIRS = [
 STATIC_ROOT = BASE_DIR / "staticfiles"
 =======
 
-STATICFILES_STORAGE = 'Portfolio.storage.S3Storage'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 >>>>>>> a5e634d4d87f7885013f7596dfc82c6559fa86c9
 
 # Media files (User-uploaded content)
